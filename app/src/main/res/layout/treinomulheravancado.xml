@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundopretoclaro"
+    android:orientation="vertical"
+    tools:context="com.alex.treino_homem.TreinoHomemMedio">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/botao_redondo_rosa"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="Treino Mulher - Avançado (Bisset)"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnSupinoRetoHalter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Supino Reto c/ Halter"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="143dp"
+                    tools:layout_editor_absoluteY="158dp" />
+
+                <Button
+                    android:id="@+id/btnTricepsSupinado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Tríceps Testa c/ Halter"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnSupinoInclHalter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Supino 45ª c/  Halter"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnCrossOverPeito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Tríceps Banco"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Agachamento Smith"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Afundo Smith"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnTricepsGraviton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Extensora"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnTricepsUnilNeutro"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Extensora Unilateral"
+                    android:textAlignment="viewStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnRemadaCavaloAber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Puxada Atrás"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnRoscaDiretaBarra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Rosca Direta c/ Halter"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Puxada Frente Supinada"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnAgachaPernaJunta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Rosca Concentrada c/ Halter"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Stiff c/ Barra"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnPuxadaFechaGravi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Agachamento Livre Pernas Juntas"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnRosca21CrossOver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Mesa Flexora"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnMesaFlexora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Mesa Flexora Unilateral"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnElevaCurvaBanco45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundovermelho"
+                    android:paddingLeft="10dp"
+                    android:text="C - Elevação Lateral c/ Halter"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnGemeos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundovermelho"
+                    android:paddingLeft="10dp"
+                    android:text="C - Elevação Frontal c/ Halter"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnArremessoBarra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundovermelho"
+                    android:paddingLeft="10dp"
+                    android:text="C - Rosca Punho (barra por trás)"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnRoscaPunhoBarraAtras"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundovermelho"
+                    android:paddingLeft="10dp"
+                    android:text="C - Rosca Inversa c/ Barra"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnAbdutora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundovermelho"
+                    android:paddingLeft="10dp"
+                    android:text="C - Abdutora"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnAdutora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundovermelho"
+                    android:paddingLeft="10dp"
+                    android:text="C - Adutora"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnPantuStep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundovermelho"
+                    android:paddingLeft="10dp"
+                    android:text=" C - Panturrilha c/ Step"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundovermelho"
+                    android:paddingLeft="10dp"
+                    android:text="C - Panturrilha Unilateral"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/button39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_green_dark"
+                    android:paddingLeft="10dp"
+                    android:text='Abdominais ( 4 x 30 ) 15\" '
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnAbdoSupraPesoIsome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Supra c/ Peso + Isometria 1'"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnAbdoObliCrosOverLateral"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Oblíquo no Cross"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnInfraDecli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundovermelho"
+                    android:paddingLeft="10dp"
+                    android:text="C - Infra c/ Peso + Isometria 1'"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>
+
+

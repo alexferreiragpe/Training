@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundopretoclaro"
+    tools:context="com.alex.treino_homem.TreinoHomemMedio">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:scrollbars="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/botao_redondo_azul"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Treino Homem - Fácil"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnSupinoMaquina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Supino Máquina"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="143dp"
+                    tools:layout_editor_absoluteY="158dp" />
+
+                <Button
+                    android:id="@+id/btnPeckDeck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Peck Deck"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnDesenvolvimento"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Desenvolvimento"
+                    android:textAlignment="viewStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnTriceps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Tríceps"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnMaquinaScoth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Máquina Scoth"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnExtensora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Extensora"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnLegHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Leg Horizontal"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnPuxadaAtras"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Puxada Atrás"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnRemadaArtFechada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Remada Articulada Fechada"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnRoscaInversa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Rosca Inversa"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnMesaFlexora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Mesa Flexora"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnGemeos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Gêmeos"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnAbdutora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Abdutora"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnAdutora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Adutora"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/button39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_green_dark"
+                    android:paddingLeft="10dp"
+                    android:text='Abdominais ( 3 x 30 ) 15\" '
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnAbdoSupraPesoIsome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundoazuledit"
+                    android:paddingLeft="10dp"
+                    android:text="A - Supra "
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <Button
+                    android:id="@+id/btnAbdoObliCrosOverLateral"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fundo_botao_laranja"
+                    android:paddingLeft="10dp"
+                    android:text="B - Oblíquo"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="249dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>
+
+

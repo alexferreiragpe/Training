@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundopretoclaro"
+    tools:context="com.alex.ferramentas.CadastroPeso">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Cadastro de Peso"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="28dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/Atual"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="false"
+                        android:layout_alignParentStart="false"
+                        android:layout_below="@+id/textView7"
+                        android:layout_gravity="center"
+                        android:background="@drawable/fundo_botao_laranja"
+                        android:ems="6"
+                        android:gravity="center"
+                        android:hint="Exemplo  0.00  KG"
+                        android:inputType="numberDecimal"
+                        android:maxLength="6"
+                        android:padding="10dp"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText"
+                        tools:layout_editor_absoluteX="142dp"
+                        tools:layout_editor_absoluteY="76dp" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/AlexCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnConsultaPeso"
+            android:layout_alignStart="@+id/btnConsultaPeso"
+            android:layout_below="@+id/Atual"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/botao_redondo_azul"
+            android:text="Cadastrar"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="208dp" />
+
+        <Button
+            android:id="@+id/btnConsultaPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_below="@+id/AlexCadastrar"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/fundovermelho"
+            android:text="Pesos Cadastrados"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Training</string>
+    <string name="supino_maquina">Supino Máquina</string>
+    <string name="Peck_Deck">Peck Deck</string>
+    <string name="Desenvolvimento">Desenvolvimento</string>
+    <string name="Tríceps">Tríceps</string>
+    <string name="Extensora">Extensora</string>
+</resources>

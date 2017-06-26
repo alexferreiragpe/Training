@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Training</string>
+    <string name="app_name_Ferramentas">Training - Ferramentas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="action_sobre">Training - Sobre</string>
+    <string name="app_name_CalculoIMC">Training - Cálculo IMC</string>
+    <string name="app_name_CadastroPeso">Training - Cadastrar/Consultar Peso</string>
+    <string name="app_name_TabelaPeso">Training - Pesos Cadastrados</string>
+    <string name="app_name_Inicio">Training - Início</string>
+    <string name="app_name_TreinoMenu">Training - Menu Treinos</string>
+
+    <string name="title_activity_splash__fullscreen">Training</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_ferramentas_menu">Training - Ferramentas</string>
+    <string name="title_activity_tabela__peso">Tabela_Peso</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="supino_maquina">Supino Máquina</string>
+    <string name="Peck_Deck">Peck Deck</string>
+    <string name="Desenvolvimento">Desenvolvimento</string>
+    <string name="Tríceps">Tríceps</string>
+    <string name="MaquinaScoth">Máquina Scoth</string>
+    <string name="Extensora">Extensora</string>
+    <string name="abdutora">abdutora</string>
+    <string name="teste">teste</string>
+
+</resources>

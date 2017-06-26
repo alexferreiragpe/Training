@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.alex.inicio.Treino_Inicio"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/txtEscolha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_Mulher"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/btn_Mulher"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fundo_botao_laranja"
+            android:text="Escolha"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="30dp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_Homem"
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:layout_alignLeft="@+id/txtEscolha"
+            android:layout_alignStart="@+id/txtEscolha"
+            android:layout_below="@+id/txtEscolha"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/botao_redondo_azul"
+            android:text="Homem"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="159dp" />
+
+        <Button
+            android:id="@+id/btn_Mulher"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn_Homem"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/botao_redondo_rosa"
+            android:text="Mulher"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            tools:ignore="ObsoleteLayoutParam"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="310dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

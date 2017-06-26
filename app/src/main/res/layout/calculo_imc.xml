@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundopretoclaro"
+    tools:context="com.alex.ferramentas.Calculo_IMC">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:text="  Cálculo de IMC  "
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textColorLink="@android:color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="85dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:text="Peso:"
+                android:textColor="@android:color/white"
+                android:textColorLink="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <EditText
+                android:id="@+id/txt_Peso"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView5"
+                android:layout_alignRight="@+id/textView5"
+                android:layout_below="@+id/textView5"
+                android:layout_gravity="center"
+                android:background="@drawable/fundo_botao_laranja"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="0.0 kg"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txt_Peso"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Altura:"
+                android:textColor="@android:color/white"
+                android:textColorLink="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <EditText
+                android:id="@+id/Atual"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView6"
+                android:layout_alignRight="@+id/textView6"
+                android:layout_below="@+id/textView6"
+                android:layout_gravity="center"
+                android:background="@drawable/fundo_botao_laranja"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="0.0  m"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Button
+                android:id="@+id/btnCadastrarPeso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Atual"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/botao_redondo_azul"
+                android:text="Calcular"
+                android:textColorLink="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
