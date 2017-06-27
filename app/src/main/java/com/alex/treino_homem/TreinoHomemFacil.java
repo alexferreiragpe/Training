@@ -45,8 +45,7 @@ public class TreinoHomemFacil extends AppCompatActivity {
         btnSupinoMaquina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnSupinoMaquina = new Intent(TreinoHomemFacil.this, Supino_Maquina.class);
-                startActivity(btnSupinoMaquina);
+                startActivity(new Intent(TreinoHomemFacil.this, Supino_Maquina.class));
             }
         });
 
@@ -109,32 +108,28 @@ public class TreinoHomemFacil extends AppCompatActivity {
         btnRemadaArtFechada.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnRemadaArtFechada = new Intent(TreinoHomemFacil.this, Remada_Artic_Fechada.class);
-                startActivity(btnRemadaArtFechada);
+                startActivity(new Intent(TreinoHomemFacil.this, Remada_Artic_Fechada.class));
             }
         });
 
         btnRoscaInversa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnRoscaInversa = new Intent(TreinoHomemFacil.this, Rosca_Invertida.class);
-                startActivity(btnRoscaInversa);
+                startActivity(new Intent(TreinoHomemFacil.this, Rosca_Invertida.class));
             }
         });
 
         btnMesaFlexora.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnMesaFlexora = new Intent(TreinoHomemFacil.this, Mesa_Flexora.class);
-                startActivity(btnMesaFlexora);
+                startActivity(new Intent(TreinoHomemFacil.this, Mesa_Flexora.class));
             }
         });
 
         btnGemeos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnGemeos = new Intent(TreinoHomemFacil.this, Gemeos.class);
-                startActivity(btnGemeos);
+                startActivity(new Intent(TreinoHomemFacil.this, Gemeos.class));
             }
         });
     }
