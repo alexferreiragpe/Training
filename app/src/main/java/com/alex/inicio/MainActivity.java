@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity
 
         Button btnTreino = (Button) findViewById(R.id.btnTreinoMenu);
         Button btnCadPeso = (Button) findViewById(R.id.btnCadPeso);
+        Button btnExercicios = (Button) findViewById(R.id.btnExercicios);
+        Button btnDicas = (Button) findViewById(R.id.btndicas);
+        Button btnFerramentas = (Button) findViewById(R.id.btnFerramentas);
 
         btnTreino.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,10 +45,36 @@ public class MainActivity extends AppCompatActivity
         btnCadPeso.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent CadPeso = new Intent(MainActivity.this, CadastroPeso.class);
-                startActivity(CadPeso);
+
+                startActivity(new Intent(MainActivity.this, CadastroPeso.class));
             }
         });
+
+        btnExercicios.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(MainActivity.this, Exercicios_Lista.class));
+            }
+        });
+
+        btnDicas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(MainActivity.this, Dicas.class));
+            }
+        });
+
+        btnFerramentas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(MainActivity.this, Ferramentas_Menu.class));
+            }
+        });
+
+
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
