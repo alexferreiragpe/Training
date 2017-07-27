@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fundopretoclaro"
+    android:background="@android:color/black"
     android:orientation="vertical"
     tools:context="com.alex.treino_homem.TreinoHomemMedio">
 
@@ -24,10 +24,11 @@
             android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/botao_redondo_rosa"
+            android:padding="10dp"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="10dp"
-            android:text="Treino Mulher - Avançado (Bisset)"
+            android:text="Treino Mulher \nAvançado (Bisset)"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="25sp"

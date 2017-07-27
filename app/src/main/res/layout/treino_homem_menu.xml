@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fundopretoclaro"
+    android:background="@android:color/black"
     tools:context="com.alex.treino_homem.Treino_Homem_Menu">
 
 
@@ -23,10 +23,10 @@
             android:layout_marginLeft="40dp"
             android:layout_marginRight="30dp"
             android:layout_marginTop="10dp"
+            android:layout_weight="0.80"
             android:background="@drawable/botao_redondo_azul"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:text="Treino Homem - Menu"
+            android:padding="10dp"
+            android:text="Treino Homem\n Menu"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="25sp"

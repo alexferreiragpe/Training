@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fundopretoclaro"
+    android:background="@android:color/black"
     tools:context="com.alex.treino_homem.TreinoHomemMedio">
 
 
@@ -23,9 +23,10 @@
             android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/botao_redondo_rosa"
+            android:padding="10dp"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
-            android:text="Treino Mulher - Médio"
+            android:text="Treino Mulher \nMédio"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="25sp"

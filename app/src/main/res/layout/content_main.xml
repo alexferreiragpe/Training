@@ -13,10 +13,11 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:gravity="center">
 
         <TableRow
             android:layout_width="match_parent"
@@ -26,28 +27,28 @@
 
             <Button
                 android:id="@+id/btnTreinoMenu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:background="@drawable/botao_redondo_azul"
                 android:gravity="center"
                 android:padding="20dp"
                 android:text="Treinos"
-                android:textColor="@android:color/holo_red_dark"
+                android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 tools:ignore="HardcodedText" />
 
             <Button
                 android:id="@+id/btnExercicios"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:background="@drawable/botao_redondo_azul"
                 android:gravity="center"
                 android:padding="20dp"
                 android:text="Exercícios"
-                android:textColor="@android:color/holo_red_dark"
+                android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -61,14 +62,14 @@
 
             <Button
                 android:id="@+id/btnCadPeso"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:background="@drawable/botao_redondo_azul"
                 android:gravity="center"
-                android:padding="20dp"
-                android:text="Cadastrar Peso"
-                android:textColor="@android:color/holo_red_dark"
+                android:padding="15dp"
+                android:text="Cadastrar \nPeso"
+                android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 tools:ignore="HardcodedText" />
@@ -90,20 +91,20 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="Dicas"
-                android:textColor="@android:color/holo_red_dark"
+                android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnFerramentas"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="left"
                 android:background="@drawable/botao_redondo_azul"
                 android:gravity="left"
-                android:padding="15dp"
+                android:padding="13dp"
                 android:text="Ferramentas"
-                android:textColor="@android:color/holo_red_dark"
+                android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </TableRow>

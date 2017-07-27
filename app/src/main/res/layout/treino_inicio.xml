@@ -41,13 +41,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="20dp"
             android:text="30dp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_Homem"
             android:layout_width="match_parent"
-            android:layout_height="117dp"
+            android:layout_height="match_parent"
             android:layout_alignLeft="@+id/txtEscolha"
             android:layout_alignStart="@+id/txtEscolha"
             android:layout_below="@+id/txtEscolha"
@@ -64,12 +65,12 @@
         <Button
             android:id="@+id/btn_Mulher"
             android:layout_width="match_parent"
-            android:layout_height="118dp"
+            android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/btn_Homem"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:layout_weight="1"
             android:background="@drawable/botao_redondo_rosa"
             android:text="Mulher"
