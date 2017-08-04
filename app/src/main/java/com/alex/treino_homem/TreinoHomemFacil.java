@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.alex.exercicios.Abdominal_Obliquo;
+import com.alex.exercicios.Abdominal_Supra;
+import com.alex.exercicios.Abdutora;
+import com.alex.exercicios.Adutora;
 import com.alex.exercicios.Desenvolvimento;
 import com.alex.exercicios.Extensora;
 import com.alex.exercicios.Gemeos;
@@ -41,6 +45,10 @@ public class TreinoHomemFacil extends AppCompatActivity {
         Button btnRoscaInversa = (Button) findViewById(R.id.btnRoscaInversa);
         Button btnMesaFlexora = (Button) findViewById(R.id.btnMesaFlexora);
         Button btnGemeos = (Button) findViewById(R.id.btnGemeos);
+        Button btnCadAbdutora = (Button) findViewById(R.id.btnAbdutora);
+        Button btnCadAdutora = (Button) findViewById(R.id.btnAdutora);
+        Button btnAbdSupra = (Button) findViewById(R.id.btnAbdoSupra);
+        Button btnObliquo = (Button) findViewById(R.id.btnAbdomObliquo);
 
         btnSupinoMaquina.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -130,6 +138,34 @@ public class TreinoHomemFacil extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(TreinoHomemFacil.this, Gemeos.class));
+            }
+        });
+
+        btnCadAbdutora.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TreinoHomemFacil.this, Abdutora.class));
+            }
+        });
+
+        btnCadAdutora.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TreinoHomemFacil.this, Adutora.class));
+            }
+        });
+
+        btnAbdSupra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TreinoHomemFacil.this, Abdominal_Supra.class));
+            }
+        });
+
+        btnObliquo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TreinoHomemFacil.this, Abdominal_Obliquo.class));
             }
         });
     }

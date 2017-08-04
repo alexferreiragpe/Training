@@ -99,7 +99,11 @@
         <activity android:name="com.alex.exercicios.Rosca_Invertida" />
         <activity android:name="com.alex.exercicios.Mesa_Flexora" />
         <activity android:name="com.alex.exercicios.Gemeos" />
-        <activity android:name="com.alex.inicio.Dicas"></activity>
+        <activity android:name="com.alex.inicio.Dicas" />
+        <activity android:name="com.alex.exercicios.Abdutora" />
+        <activity android:name="com.alex.exercicios.Adutora" />
+        <activity android:name="com.alex.exercicios.Abdominal_Supra" />
+        <activity android:name="com.alex.exercicios.Abdominal_Obliquo"></activity>
     </application>
 
 </manifest>

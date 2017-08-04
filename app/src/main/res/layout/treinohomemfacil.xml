@@ -301,7 +301,7 @@
                     tools:layout_editor_absoluteY="249dp" />
 
                 <Button
-                    android:id="@+id/btnAbdoSupraPesoIsome"
+                    android:id="@+id/btnAbdoSupra"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="40dp"
@@ -318,7 +318,7 @@
                     tools:layout_editor_absoluteY="249dp" />
 
                 <Button
-                    android:id="@+id/btnAbdoObliCrosOverLateral"
+                    android:id="@+id/btnAbdomObliquo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="40dp"
