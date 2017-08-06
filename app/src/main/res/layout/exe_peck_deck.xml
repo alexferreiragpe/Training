@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_weight="1"
-        android:background="@drawable/fundoazuledit"
+        android:background="@drawable/fundo_azul_edit"
         android:padding="10dp"
         android:text="Peck Deck"
         android:textAlignment="center"
@@ -27,7 +27,7 @@
         android:layout_below="@+id/button8"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
-        android:background="@drawable/peck_deck"
+        android:background="@drawable/img_peck_deck"
         android:padding="10dp">
 
 

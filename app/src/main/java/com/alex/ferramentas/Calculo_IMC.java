@@ -66,7 +66,7 @@ public class Calculo_IMC extends AppCompatActivity {
                             dialog.dismiss();
                         }
                     });
-                    alertDialog.setIcon(R.drawable.icone);
+                    alertDialog.setIcon(R.drawable.img_icone);
                     alertDialog.show();
                 }
 

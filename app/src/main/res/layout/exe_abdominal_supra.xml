@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_weight="1"
-        android:background="@drawable/fundoazuledit"
+        android:background="@drawable/fundo_azul_edit"
         android:padding="10dp"
         android:text="Abdominal Supra"
         android:textAlignment="center"
@@ -36,7 +36,7 @@
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/abd_supra" />
+            app:srcCompat="@drawable/img_abd_supra" />
     </RelativeLayout>
 
 </RelativeLayout>

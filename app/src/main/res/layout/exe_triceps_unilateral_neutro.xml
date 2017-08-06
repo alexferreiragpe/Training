@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.alex.exercicios.Agachamento_Livre_Barra">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/relativeLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="56dp"
+        android:layout_weight="1"
+        android:background="@drawable/fundo_azul_edit"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Tríceps \nUnilateral Neutro"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@android:color/black"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28dp"
+            app:srcCompat="@drawable/img_triceps_unilat_neutro" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

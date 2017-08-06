@@ -52,7 +52,7 @@ public class TabelaPeso extends AppCompatActivity {
 
                 }
             });
-            alertDialog.setIcon(R.drawable.icone);
+            alertDialog.setIcon(R.drawable.img_icone);
             alertDialog.show();
 
         }

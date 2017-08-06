@@ -103,7 +103,15 @@
         <activity android:name="com.alex.exercicios.Abdutora" />
         <activity android:name="com.alex.exercicios.Adutora" />
         <activity android:name="com.alex.exercicios.Abdominal_Supra" />
-        <activity android:name="com.alex.exercicios.Abdominal_Obliquo"></activity>
+        <activity android:name="com.alex.exercicios.Abdominal_Obliquo" />
+        <activity android:name="com.alex.exercicios.Supino_Reto" />
+        <activity android:name="com.alex.exercicios.Triceps_Graviton" />
+        <activity android:name="com.alex.exercicios.Triceps_UnilateralNeutro" />
+        <activity android:name="com.alex.exercicios.Supino_Incli_Halter" />
+        <activity android:name="com.alex.exercicios.Triceps_Supinado" />
+        <activity android:name="com.alex.exercicios.CrossOver" />
+        <activity android:name="com.alex.exercicios.Agacha_Smith" />
+        <activity android:name="com.alex.exercicios.Afundo_Smith"></activity>
     </application>
 
 </manifest>

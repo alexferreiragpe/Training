@@ -26,7 +26,7 @@
             android:layout_alignStart="@+id/btn_Mulher"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:background="@drawable/fundo_botao_laranja"
+            android:background="@drawable/fundo_laranja"
             android:text="Escolha"
             android:textAlignment="center"
             android:textColor="@android:color/black"

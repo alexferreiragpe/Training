@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_weight="1"
-        android:background="@drawable/fundoazuledit"
+        android:background="@drawable/fundo_azul_edit"
         android:padding="10dp"
         android:text="Desenvolvimento"
         android:textAlignment="center"
@@ -26,18 +26,18 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/button9"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button9">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/desenvolvimento_sentado_com_halteres"
-            app:srcCompat="@drawable/desenvolvimento_sentado_com_halteres"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="39dp" />
+            android:layout_marginTop="39dp"
+            android:background="@drawable/img_desenv_sentado_halter"
+            app:srcCompat="@drawable/img_desenv_sentado_halter" />
     </RelativeLayout>
 </RelativeLayout>
