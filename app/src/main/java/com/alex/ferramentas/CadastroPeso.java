@@ -1,5 +1,6 @@
 package com.alex.ferramentas;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -39,6 +40,7 @@ public class CadastroPeso extends AppCompatActivity {
 
 
         BtCadastra.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("WrongConstant")
             @Override
             public void onClick(View v) {
 

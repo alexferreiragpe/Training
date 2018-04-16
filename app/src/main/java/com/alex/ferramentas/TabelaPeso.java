@@ -49,6 +49,7 @@ public class TabelaPeso extends AppCompatActivity {
                     Intent Main = new Intent(getApplicationContext(), CadastroPeso.class);
                     startActivity(Main);
                     dialog.dismiss();
+                    finish();
 
                 }
             });
